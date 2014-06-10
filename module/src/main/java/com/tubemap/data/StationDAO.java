@@ -1,4 +1,4 @@
-package com.example.data;
+package com.tubemap.data;
 
 import java.util.List;
 

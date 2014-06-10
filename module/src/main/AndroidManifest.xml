@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.londontubemap.module" >
+    package="com.tubemap" >
 
     <application
         android:allowBackup="true"
@@ -8,15 +8,23 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".LondonTubeMapActivity"
+            android:name=".londontubemap.module.LondonTubeMapActivity"
             android:label="@string/app_name" >
+
+        </activity>
+        <activity android:name=".tubemap.ZoomInZoomOut"
+            android:label="TestZoom">
+
+        </activity>
+        <activity android:name=".tubemap.TubeMapActivity"
+            android:label="TestZoom">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
+        </activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

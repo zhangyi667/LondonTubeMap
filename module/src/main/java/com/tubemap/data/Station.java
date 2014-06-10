@@ -1,4 +1,4 @@
-package com.example.data;
+package com.tubemap.data;
 
 /**
  * Created by zhangyi667 on 14-6-10.

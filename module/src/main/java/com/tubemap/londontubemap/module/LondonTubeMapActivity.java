@@ -1,4 +1,4 @@
-package com.example.londontubemap.module;
+package com.tubemap.londontubemap.module;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -8,8 +8,8 @@ import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.data.Station;
-import com.example.data.StationImpDAO;
+import com.tubemap.data.Station;
+import com.tubemap.data.StationImpDAO;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
