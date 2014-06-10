@@ -8,9 +8,13 @@ import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.data.Station;
+import com.example.data.StationImpDAO;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
+
+import java.util.List;
 
 
 public class LondonTubeMapActivity extends Activity implements
@@ -46,6 +50,11 @@ public class LondonTubeMapActivity extends Activity implements
         if (savedInstanceState != null) {
             mIsInResolution = savedInstanceState.getBoolean(KEY_IN_RESOLUTION, false);
         }
+
+        StationImpDAO stationsSet = new StationImpDAO();
+        List<Station> stations = stationsSet.getAllStations();
+
+
     }
 
     /**
