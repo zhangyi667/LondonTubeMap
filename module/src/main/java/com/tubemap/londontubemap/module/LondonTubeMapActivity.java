@@ -51,8 +51,7 @@ public class LondonTubeMapActivity extends Activity implements
             mIsInResolution = savedInstanceState.getBoolean(KEY_IN_RESOLUTION, false);
         }
 
-        StationImpDAO stationsSet = new StationImpDAO();
-        List<Station> stations = stationsSet.getAllStations();
+
 
 
     }

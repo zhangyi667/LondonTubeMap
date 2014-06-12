@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Document>
-    <name>Transport for London Stations</name>
-    <open>0</open>
-    <description>Transport for London Stations</description>
-    <Style id="tubeStyle">
-        <IconStyle>
-            <Icon>
-                <href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-tube.png</href>
-            </Icon>
-        </IconStyle>
-    </Style>
-    <Style id="dlrStyle">
-        <IconStyle>
-            <Icon>
-                <href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-dlr.png</href>
-            </Icon>
-        </IconStyle>
-    </Style>
-    <Style id="overgroundStyle">
-        <IconStyle>
-            <Icon>
-                <href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-overground.png</href>
-            </Icon>
-        </IconStyle>
-    </Style>
+    <!--<name>Transport for London Stations</name>-->
+    <!--<open>0</open>-->
+    <!--<description>Transport for London Stations</description>-->
+    <!--<Style id="tubeStyle">-->
+        <!--<IconStyle>-->
+            <!--<Icon>-->
+                <!--<href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-tube.png</href>-->
+            <!--</Icon>-->
+        <!--</IconStyle>-->
+    <!--</Style>-->
+    <!--<Style id="dlrStyle">-->
+        <!--<IconStyle>-->
+            <!--<Icon>-->
+                <!--<href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-dlr.png</href>-->
+            <!--</Icon>-->
+        <!--</IconStyle>-->
+    <!--</Style>-->
+    <!--<Style id="overgroundStyle">-->
+        <!--<IconStyle>-->
+            <!--<Icon>-->
+                <!--<href>http://www.tfl.gov.uk/tfl-global/images/syndication/roundel-overground.png</href>-->
+            <!--</Icon>-->
+        <!--</IconStyle>-->
+    <!--</Style>-->
     <Placemark>
         <name>Acton Town Station</name>
         <description>Acton Town Station, London Underground Ltd., Gunnersbury Lane, London, W3 8HN</description>
